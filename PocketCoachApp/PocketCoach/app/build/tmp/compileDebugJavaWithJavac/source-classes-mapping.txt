@@ -1,0 +1,13 @@
+com/example/pocketcoach/SignInActivity.java
+ com.example.pocketcoach.SignInActivity
+ com.example.pocketcoach.SignInActivity$1
+ com.example.pocketcoach.SignInActivity$1$1
+ com.example.pocketcoach.SignInActivity$2
+ com.example.pocketcoach.SignInActivity$3
+ com.example.pocketcoach.SignInActivity$4
+ com.example.pocketcoach.SignInActivity$4$1
+ com.example.pocketcoach.SignInActivity$5
+com/example/pocketcoach/BuildConfig.java
+ com.example.pocketcoach.BuildConfig
+com/example/pocketcoach/MainActivity.java
+ com.example.pocketcoach.MainActivity

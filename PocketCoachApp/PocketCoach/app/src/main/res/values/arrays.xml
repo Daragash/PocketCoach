@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    // String Array with all possible Exercises
+    <string-array name="exercises_array">
+        <item>Klimmzüge</item>
+        <item>Bizeps Curl</item>
+    </string-array>
+
+</resources>
