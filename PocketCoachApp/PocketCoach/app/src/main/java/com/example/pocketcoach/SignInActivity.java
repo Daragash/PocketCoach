@@ -20,7 +20,13 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-
+/***************************************************************************************************
+ ***************************************************************************************************
+ * SIGN IN ACTIVITY
+ * to sign in or register to Pocket Coach
+ * to reset the password
+ ***************************************************************************************************
+ **************************************************************************************************/
 public class SignInActivity extends AppCompatActivity implements View.OnClickListener {
     final static String TAG = "SignInActivity";
 
@@ -33,6 +39,10 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
     Button   buttonLogIn;            // Button for the Log In
     Button   buttonRegister;         // Button to register
 
+    /***********************************************************************************************
+     * ON CREATE
+     * This function runs when the Activity is created
+     **********************************************************************************************/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

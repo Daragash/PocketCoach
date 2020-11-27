@@ -17,6 +17,15 @@ import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 
+/***************************************************************************************************
+ ***************************************************************************************************
+ * MAIN ACTIVITY
+ * this Class is the Main Activity of the PocketCoach App
+ * from this Acitivtiy you can go to any other Activity of the App
+ * the Main Activity is used to select an exercise or go to the Record History
+ * There is a menu Button to Log out and clickable Text to reat the Imprint
+ ***************************************************************************************************
+ **************************************************************************************************/
 public class MainActivity extends AppCompatActivity {
     public static final String TAG = "MainActivity";
 
@@ -28,8 +37,10 @@ public class MainActivity extends AppCompatActivity {
 
     private FirebaseAuth firebaseAuth; // to check if the user is logged in
 
-
-
+    /***********************************************************************************************
+     * ON CREATE
+     * This function runs when the Activity is created
+     **********************************************************************************************/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
