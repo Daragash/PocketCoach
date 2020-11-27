@@ -10,9 +10,28 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
     <option name="LOGCAT_FORMAT_STRING" value="%4$c: %6$s" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="244ff206-f213-4f19-86d2-71a05de04fae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/pocketcoach/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pocketcoach/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
@@ -153,6 +172,18 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Merge branch 'main' of https://github.com/Daragash/PocketCoach into main" />
@@ -171,28 +202,28 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="102" y="118" key="CommitChangelistDialog2/167.1050.1440.900/0.0.1680.1050@0.0.1680.1050" timestamp="1605701953050" />
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom" timestamp="1605889093117">
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom" timestamp="1606210544108">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605889093117" />
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606210544108" />
     <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1605888339796" />
     <state width="1193" height="935" key="GridCell.Tab.0.bottom/167.1050.1440.900/0.0.1680.1050@0.0.1680.1050" timestamp="1605702888422" />
-    <state width="1398" height="304" key="GridCell.Tab.0.center" timestamp="1605889093115">
+    <state width="1398" height="237" key="GridCell.Tab.0.center" timestamp="1606210544106">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1605889093115" />
+    <state width="1398" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606210544106" />
     <state width="1398" height="304" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1605888339793" />
     <state width="1193" height="935" key="GridCell.Tab.0.center/167.1050.1440.900/0.0.1680.1050@0.0.1680.1050" timestamp="1605702888420" />
-    <state width="1398" height="304" key="GridCell.Tab.0.left" timestamp="1605889093113">
+    <state width="1398" height="237" key="GridCell.Tab.0.left" timestamp="1606210544105">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1605889093113" />
+    <state width="1398" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606210544105" />
     <state width="1398" height="304" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1605888339791" />
     <state width="1193" height="935" key="GridCell.Tab.0.left/167.1050.1440.900/0.0.1680.1050@0.0.1680.1050" timestamp="1605702888419" />
-    <state width="1398" height="304" key="GridCell.Tab.0.right" timestamp="1605889093116">
+    <state width="1398" height="237" key="GridCell.Tab.0.right" timestamp="1606210544107">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1605889093116" />
+    <state width="1398" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606210544107" />
     <state width="1398" height="304" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1605888339795" />
     <state width="1193" height="935" key="GridCell.Tab.0.right/167.1050.1440.900/0.0.1680.1050@0.0.1680.1050" timestamp="1605702888422" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1605889093123">
@@ -227,11 +258,11 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="346" y="362" key="edit.logcat.filter.dialog.dimensions/167.1073.1440.877/0.23.1680.1027@0.23.1680.1027" timestamp="1605703050353" />
-    <state width="456" height="113" key="javadoc.popup.new" timestamp="1606161727328">
+    <state width="456" height="113" key="javadoc.popup.new" timestamp="1606471663453">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="456" height="113" key="javadoc.popup.new/0.0.1440.900@0.0.1440.900" timestamp="1606161727328" />
-    <state width="456" height="113" key="javadoc.popup.new/0.23.1440.877@0.23.1440.877" timestamp="1605890269546" />
+    <state width="456" height="113" key="javadoc.popup.new/0.0.1440.900@0.0.1440.900" timestamp="1606471663453" />
+    <state width="456" height="113" key="javadoc.popup.new/0.23.1440.877@0.23.1440.877" timestamp="1606471628606" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1605792517183">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

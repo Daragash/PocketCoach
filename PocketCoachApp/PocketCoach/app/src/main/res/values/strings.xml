@@ -2,6 +2,7 @@
     <string name="app_name">PocketCoach</string>
 
     // Strings for the Log In Status in the Main Activity
+    <string name="preview_text_login">LOGIN_STATUS</string>
     <string name="logged_in">Willkommen bei Pocket Coach </string>
     <string name="not_logged_in">Nicht eingeloggt</string>
 
