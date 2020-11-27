@@ -8,35 +8,35 @@
 
     <TextView
         android:id="@+id/textViewLogInStatus"
-        android:text="@string/preview_text_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="72dp"
         android:layout_marginBottom="35dp"
+        android:text="@string/preview_text_login"
         android:textSize="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintBottom_toTopOf="@+id/textViewInfo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
+        android:id="@+id/textViewInfo"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/exercise_info"
         android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/listViewExercise"
-        app:layout_constraintEnd_toStartOf="@+id/textViewLogInStatus"
-        app:layout_constraintStart_toStartOf="@+id/textViewLogInStatus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewLogInStatus" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textViewImprint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="15dp"
+        android:layout_marginEnd="14dp"
         android:layout_marginBottom="57dp"
-        android:text="@string/impressum"
+        android:text="@string/imprint"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/listViewExercise" />
@@ -45,10 +45,10 @@
         android:id="@+id/listViewExercise"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="107dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        android:layout_marginBottom="109dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewImprint"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewInfo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

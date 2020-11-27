@@ -8,8 +8,8 @@
 
     // Main Activity String
     <string name="exercise_info">Wähle eine Übung</string>
-    <string name="impressum">Impressum</string>
-    
+    <string name="imprint">Impressum</string>
+
     //Log In Activity UI Strings
     <string name="info_text">Logge dich ein oder registriere dich!</string>
     <string name="button_log_in_text">Einloggen</string>

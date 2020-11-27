@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     public static final String TAG = "MainActivity";
 
     TextView textViewLogInStatus;      // to show the Log in Status of the user
+    TextView textViewImprint;          // for the Impressum
     ListView listViewExercise;         // ListView for the possible exercises
     String[] exercisesArray;           // List of the possible exercises
 
@@ -32,10 +33,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        textViewLogInStatus = (TextView) findViewById(R.id.textViewLogInStatus); // initialization of the TextView
-        listViewExercise = (ListView) findViewById(R.id.listViewExercise);       // initialization of the ListView
-        exercisesArray = getResources().getStringArray(R.array.exercises_array); // get the Array from res
-        firebaseAuth = FirebaseAuth.getInstance();                               // gets the log in status of the user
+        textViewLogInStatus = (TextView) findViewById(R.id.textViewLogInStatus);      // initialization of the TextView for the LogIn Status
+        textViewImprint     = (TextView) findViewById(R.id.textViewImprint);          // initialization of the TextView for the Imprint
+        listViewExercise    = (ListView) findViewById(R.id.listViewExercise);         // initialization of the ListView
+        exercisesArray      = getResources().getStringArray(R.array.exercises_array); // get the Array from res
+        firebaseAuth        = FirebaseAuth.getInstance();                             // gets the log in status of the user
 
         // the following if else statement is used to checkif the user is logged in
         // not logged in -> forward user to login
@@ -82,6 +84,17 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+        textViewImprint.isClickable(); // to make the textView reacating on Clicks
+        textViewImprint.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) { // if textViewImprint is Clicked the Imprint activity will be called
+                Intent intentImprint = new Intent(MainActivity.this, ImprintActivity.class);
+                startActivity(intentImprint);
+            }
+        });
+
+
     }
 
     /***********************************************************************************************
