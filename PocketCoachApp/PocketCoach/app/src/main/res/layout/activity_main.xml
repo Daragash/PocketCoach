@@ -39,16 +39,28 @@
         android:text="@string/imprint"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/listViewExercise" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonRecordHistory" />
 
     <ListView
         android:id="@+id/listViewExercise"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="109dp"
-        app:layout_constraintBottom_toTopOf="@+id/textViewImprint"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonRecordHistory"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewInfo" />
+
+    <Button
+        android:id="@+id/buttonRecordHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="37dp"
+        android:onClick="onClickButtonRecordHistory"
+        android:text="@string/button_record_history_text"
+        app:layout_constraintBottom_toTopOf="@+id/textViewImprint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listViewExercise" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
