@@ -4,71 +4,99 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".ChoosePullUpActivity">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginBottom="43dp"
-        android:onClick="onClickPullUpMaximalButton"
-        android:text="@string/maxButton_text"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
-        app:layout_constraintStart_toStartOf="parent" />
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawerLayout2"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:background="@drawable/pull_up_image"
+        android:foregroundGravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textViewTitel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/pull_up_titel_text"
+            android:textColor="@color/white"
+            android:textSize="100dp"
+            android:textStyle="bold" />
+    </androidx.drawerlayout.widget.DrawerLayout>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonMax"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="175dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginStart="23dp"
+        android:background="@color/pocket_coach_blue"
+        android:onClick="onClickPullUpMaximalButton"
+        android:text="@string/maxButton_text"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonAusdauer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/buttonAusdauer" />
+
+    <Button
+        android:id="@+id/buttonAusdauer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="43dp"
+        android:background="@color/pocket_coach_blue"
         android:onClick="onClickPullUpAusdauerButton"
         android:text="@string/ausdauerButton_text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewHeader" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonSpeed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="39dp"
+        android:background="@color/pocket_coach_blue"
         android:onClick="onClickPullUpSchnellButton"
         android:text="@string/speedButton_text"
-        app:layout_constraintBottom_toBottomOf="@+id/button4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/button4" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonMax" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/buttonHyper"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="43dp"
-        android:layout_marginEnd="36dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="53dp"
+        android:background="@color/pocket_coach_blue"
         android:onClick="onClickPullUpHyperButton"
         android:text="@string/hyperButton_text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonAusdauer" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/buttonCalcMax"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="217dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginBottom="57dp"
+        android:background="@color/pocket_coach_blue"
         android:onClick="onClickPullUpMaxTestButton"
         android:text="@string/MaxTestButton_"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="31dp"
         android:text="@string/ChooseActivityTitleText"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/drawerLayout2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

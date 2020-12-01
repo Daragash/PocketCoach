@@ -9,7 +9,7 @@
     // Main Activity String
     <string name="exercise_info">Wähle eine Übung</string>
     <string name="imprint">Impressum</string>
-    <string name="button_record_history_text">Record History</string>
+    <string name="button_record_history_text">Dein Trainingsverlauf</string>
 
     //Log In Activity UI Strings
     <string name="info_text">Logge dich ein oder registriere dich!</string>
@@ -36,6 +36,7 @@
     <string name="email_send_info">Die Email zum zurücksetzten des Passworts wurde versendet</string>
 
     // Strings for the Choose... Activitys
+    <string name="pull_up_titel_text">PULL UP</string>
     <string name="ChooseActivityTitleText">Was möchtest du trainieren?</string>
     <string name="maxButton_text">Maximalkraft</string>
     <string name="ausdauerButton_text">Kraftausdauer</string>
