@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
-    <color name="pocket_coach_bue">#32ffed</color>
+    <color name="colorPrimary">#1B1B1B</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#3dff8a</color>
+
+    // Typical PocketCoach Colors
+    <color name="pocket_coach_blue">#32ffed</color>
     <color name="pocket_coach_green">#3dff8a </color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#1B1B1B</color>
+
+    // to store the old primary numbers
+    <color name="colorPrimary_safe">#6200EE</color>
+    <color name="colorPrimaryDark_safe">#3700B3</color>
+    <color name="colorAccent_safe">#03DAC5</color>
 </resources>

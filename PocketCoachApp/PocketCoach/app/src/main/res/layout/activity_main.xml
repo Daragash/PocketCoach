@@ -4,10 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/hantel_blild"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textViewLogInStatus"
+        android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="72dp"
@@ -21,6 +23,7 @@
 
     <TextView
         android:id="@+id/textViewInfo"
+        android:textColor="@color/white"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/exercise_info"
@@ -32,6 +35,7 @@
 
     <TextView
         android:id="@+id/textViewImprint"
+        android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="14dp"
@@ -45,6 +49,7 @@
         android:id="@+id/listViewExercise"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:textColor="@color/white"
         android:layout_marginBottom="25dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonRecordHistory"
         app:layout_constraintEnd_toEndOf="parent"

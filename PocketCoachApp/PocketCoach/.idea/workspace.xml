@@ -30,14 +30,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="244ff206-f213-4f19-86d2-71a05de04fae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hantel_blild.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/pocketcoach/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pocketcoach/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Nexus_5X_API_27]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -73,7 +77,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
@@ -82,6 +87,10 @@
     </key>
     <key name="android.template.371367761">
       <recent name="com.example.pocketcoach" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
     </key>
   </component>
   <component name="RunManager">
@@ -193,10 +202,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1605870738445" />
-    <state x="308" y="212" key="AndroidCreateResourceFileDialog" timestamp="1605865627816">
+    <state x="308" y="212" key="AndroidCreateResourceFileDialog" timestamp="1606766674710">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="308" y="212" key="AndroidCreateResourceFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1605865627816" />
+    <state x="308" y="212" key="AndroidCreateResourceFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1606766674710" />
     <state x="102" y="118" key="CommitChangelistDialog2" timestamp="1605701953050">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -253,18 +262,22 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="440" y="253" key="Vcs.Push.Dialog.v2/167.1050.1440.900/0.0.1680.1050@0.0.1680.1050" timestamp="1605701965399" />
+    <state x="497" y="235" key="chooseDestDirectoryDialog" timestamp="1606766806917">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="497" y="235" key="chooseDestDirectoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1606766806917" />
     <state x="346" y="362" key="edit.logcat.filter.dialog.dimensions" timestamp="1605703050353">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="346" y="362" key="edit.logcat.filter.dialog.dimensions/167.1073.1440.877/0.23.1680.1027@0.23.1680.1027" timestamp="1605703050353" />
-    <state width="456" height="113" key="javadoc.popup.new" timestamp="1606498347387">
+    <state width="456" height="113" key="javadoc.popup.new" timestamp="1606830781799">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="456" height="113" key="javadoc.popup.new/0.0.1440.900@0.0.1440.900" timestamp="1606498347387" />
-    <state width="456" height="113" key="javadoc.popup.new/0.23.1440.877@0.23.1440.877" timestamp="1606471628606" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1605792517183">
+    <state width="456" height="113" key="javadoc.popup.new/0.0.1440.900@0.0.1440.900" timestamp="1606830781799" />
+    <state width="456" height="113" key="javadoc.popup.new/0.23.1440.877@0.23.1440.877" timestamp="1606829713388" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1606829587466">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1605792517183" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1606829587466" />
   </component>
 </project>

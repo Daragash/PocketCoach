@@ -1,13 +1,19 @@
 package com.example.pocketcoach;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.app.LauncherActivity;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -41,10 +47,12 @@ public class MainActivity extends AppCompatActivity {
      * ON CREATE
      * This function runs when the Activity is created
      **********************************************************************************************/
+    @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         textViewLogInStatus = (TextView) findViewById(R.id.textViewLogInStatus);      // initialization of the TextView for the LogIn Status
         textViewImprint     = (TextView) findViewById(R.id.textViewImprint);          // initialization of the TextView for the Imprint
@@ -52,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
         buttonRecordHistory = (Button)   findViewById(R.id.buttonRecordHistory);      // initialization of the Record History Button
         exercisesArray      = getResources().getStringArray(R.array.exercises_array); // get the Array from res
         firebaseAuth        = FirebaseAuth.getInstance();                             // gets the log in status of the user
+
+        buttonRecordHistory.setBackgroundColor(getColor(R.color.pocket_coach_blue)); // add color to the Button
 
         // the following if else statement is used to checkif the user is logged in
         // not logged in -> forward user to login
@@ -67,9 +77,19 @@ public class MainActivity extends AppCompatActivity {
 
         // initialization of the Array Adaper for the listViewExercise ListView
         ArrayAdapter arrayAdapter = new ArrayAdapter<String>(
-                this,
-                android.R.layout.simple_list_item_1,
-                exercisesArray);
+                this, android.R.layout.simple_list_item_1, exercisesArray){
+            @NonNull
+            @Override
+            public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+                // Cast the list view each item as text view
+                TextView item = (TextView) super.getView(position,convertView,parent);
+                // set Color to white of the ListVew items
+                item.setTextColor(getColor(R.color.white));
+                item.setBackgroundColor(getColor(R.color.black));
+                return item;
+            }
+        };
+
         listViewExercise.setAdapter(arrayAdapter); // Links ListView to the arrayAdapeter
         listViewExercise.setClickable(true);       // make the List View Items Clickable
         // add OnClickListener to the ListView
