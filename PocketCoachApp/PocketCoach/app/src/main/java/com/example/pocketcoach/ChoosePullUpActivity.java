@@ -2,6 +2,7 @@ package com.example.pocketcoach;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -31,6 +32,7 @@ public class ChoosePullUpActivity extends AppCompatActivity {
     }
 
     public void onClickPullUpMaxTestButton(View view) {
-        //Intent intent = new Intent
+        Intent intentMaxTest = new Intent(ChoosePullUpActivity.this, MaxTestActivity.class);
+        startActivity(intentMaxTest);
     }
 }

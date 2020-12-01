@@ -2,6 +2,7 @@ package com.example.pocketcoach;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -29,6 +30,7 @@ public class ChooseBizepsCurlActivity extends AppCompatActivity {
     }
 
     public void onClickBicepsCurlMaxTestButton(View view) {
-        //Intent intent = new Intent
+        Intent intentMaxTest = new Intent(ChooseBizepsCurlActivity.this, MaxTestActivity.class);
+        startActivity(intentMaxTest);
     }
 }

@@ -44,6 +44,14 @@
     <string name="hyperButton_text">Hypertrophie</string>
     <string name="MaxTestButton_">Maximalkraft berechnen</string>
 
+    // String for One Rep Max Calculation
+    <string name="hint_weight">Trainingsgewicht eingeben</string>
+    <string name="hint_rep">Wiederholungen eingeben</string>
+    <string name="hint_calc_one_rep_max">1RM berechnen</string>
+    <string name="warning_to_high_reps">Wähle ein schwerers Gewicht. Messungen mit über 20 Wiederholungen können nicht verarbeitet werden! </string>
+    <string name="return_text_one_rep_max">Dein Maximalgewicht beträgt: </string>
+    <string name="kilogramm"> Kilogramm</string>
+
     // Strings for the RecordHistory
     <string name="RecordHistoryChooseText">Trainingstag auswählen</string>
 </resources>
