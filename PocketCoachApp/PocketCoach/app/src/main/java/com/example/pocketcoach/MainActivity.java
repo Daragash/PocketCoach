@@ -103,9 +103,11 @@ public class MainActivity extends AppCompatActivity {
                 // To Add an Exercise this swith case statement hast to be extended
                 switch (exerciseString){
                     case "Pull up":
-                        Toast.makeText(getApplicationContext(),
-                                "pullup wurde gedrückt",
-                                Toast.LENGTH_LONG).show();
+                        // go to ChoosePullUp Activity with intent
+                        Intent intentPullUp = new Intent(
+                                MainActivity.this,
+                                ChoosePullUpActivity.class);
+                        startActivity(intentPullUp);
                         break;
                     case "Bizeps Curl":
                         // go to ChooseBizepsCurle Activity with intent
