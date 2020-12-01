@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.LauncherActivity;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
@@ -86,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
                 // set Color to white of the ListVew items
                 item.setTextColor(getColor(R.color.white));
                 item.setBackgroundColor(getColor(R.color.black));
+                item.setTypeface(item.getTypeface(), Typeface.BOLD);
                 return item;
             }
         };
@@ -106,9 +108,11 @@ public class MainActivity extends AppCompatActivity {
                                 Toast.LENGTH_LONG).show();
                         break;
                     case "Bizeps Curl":
-                        Toast.makeText(getApplicationContext(),
-                                "bizeps curl wurde gedrückt",
-                                Toast.LENGTH_LONG).show();
+                        // go to ChooseBizepsCurle Activity with intent
+                       Intent intentBizepsCurl = new Intent(
+                               MainActivity.this,
+                               ChooseBizepsCurlActivity.class);
+                       startActivity(intentBizepsCurl);
                         break;
                     default:
                         Toast.makeText(getApplicationContext(),

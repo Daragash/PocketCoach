@@ -34,4 +34,15 @@
     <string name="negativ_button_text">Zurück</string>
     <string name="warning_no_email_text">Bitte gib deine Email Adresse an</string>
     <string name="email_send_info">Die Email zum zurücksetzten des Passworts wurde versendet</string>
+
+    // Strings for the Choose... Activitys
+    <string name="ChooseActivityTitleText">Was möchtest du trainieren?</string>
+    <string name="maxButton_text">Maximalkraft</string>
+    <string name="ausdauerButton_text">Kraftausdauer</string>
+    <string name="speedButton_text">Schnellkraft</string>
+    <string name="hyperButton_text">Hypertrophie</string>
+    <string name="MaxTestButton_">Maximalkraft berechnen</string>
+
+    // Strings for the RecordHistory
+    <string name="RecordHistoryChooseText">Trainingstag auswählen</string>
 </resources>
